@@ -4,8 +4,18 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Site Info -->
   <title>Portfolio</title>
-  <link rel="stylesheet" href="css\rsc-style.css">
+
+  <!-- CSS -->
+  <!-- リセットCSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@4.0.0/destyle.min.css">
+  <link rel="stylesheet" href="/css/rsc-style.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&display=swap" rel="stylesheet">
+
 </head>
 <body>
   <h1>{{config('app.name')}}</h1>
