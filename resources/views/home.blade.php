@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="css\rsc-style.css">
 </head>
 <body>
-  <h1 class="h1">{{config('app.name')}}</h1>
+  <h1>{{config('app.name')}}</h1>
   <p>ポートフォリオへようこそ!</p>
 </body>
 </html>
