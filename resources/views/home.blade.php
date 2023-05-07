@@ -6,7 +6,7 @@
 
 @section('content')
 
-  <img src="./img/home-image.jpg" alt="home-image.jpg">
+  <img src="{{ asset("storage/home-image.jpg") }}" alt="home-image.jpg">
 
   <main id="home">
     <h2>ポートフォリオへようこそ!</h2>
