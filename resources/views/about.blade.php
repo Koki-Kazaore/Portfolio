@@ -13,7 +13,7 @@
     <p>当サイトでは，私がLaravelを勉強していく中で簡単なポートフォリオを作成したいと思い作成しました．</p>
 
     <article id="profile">
-      <img src="/img/profile.svg" alt="profile.svg">
+      <img src="{{ asset("storage/footBallPlayer.svg") }}" alt="footBallPlayer">
 
       <h2 class="name">@KokiKazaore</h2>
       <ul>
