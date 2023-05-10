@@ -19,7 +19,14 @@ h1 {font-size: 1.50rem;}
 h2 {font-size: 1.25rem;}
 
 .container {
-  margin: 0 10%;
+  margin: 0 auto;
+  max-width: 800px;
+
+    /* [モバイル]
+  ------------------------------------------ */
+  @media (max-width: 1000px) {
+    margin: 0 10%;
+  }
 }
 
 main {
