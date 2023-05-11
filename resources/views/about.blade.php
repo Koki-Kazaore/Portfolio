@@ -6,8 +6,6 @@
 
 @section('content')
 
-  <img src="{{ asset("storage/home-image.jpg") }}" alt="home-image.jpg">
-
   <main id="about">
     <h2>About Page</h2>
     <p>当サイトでは，私がLaravelを勉強していく中で簡単なポートフォリオを作成したいと思い作成しました．</p>

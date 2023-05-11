@@ -17,6 +17,7 @@ img {width: 100%;}
 
 h1 {font-size: 1.50rem;}
 h2 {font-size: 1.25rem;}
+h3 {font-weight: 600;}
 
 .container {
   margin: 0 auto;
@@ -89,3 +90,30 @@ main {
     border-radius: 50%;
   }
 }
+
+/* ワークスページ
+--------------------------------------------------*/
+#works {
+  article {
+    section {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-bottom: 25px;
+
+      p {
+        font-size: 0.90rem;
+      }
+
+      a {
+        display: flex;
+        flex-direction: column;
+        width: max-content;
+      }
+
+      img {
+        width: max-content;
+      }
+    } // section
+  } // article
+} // #works

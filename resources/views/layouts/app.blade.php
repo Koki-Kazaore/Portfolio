@@ -22,7 +22,7 @@
     <h1><a href="/">{{config('app.name')}}</a></h1>
     <ul id="global-menu">
       <li><a href="/about">about</a></li>
-      <li><a href="#">works</a></li>
+      <li><a href="/works">works</a></li>
       <li><a href="#">contact</a></li>
     </ul>
   </header>

@@ -17,6 +17,10 @@ h2 {
   font-size: 1.25rem;
 }
 
+h3 {
+  font-weight: 600;
+}
+
 .container {
   margin: 0 auto;
   max-width: 800px;
@@ -84,4 +88,26 @@ main h2, main > p {
 #profile img {
   width: 150px;
   border-radius: 50%;
+}
+
+/* ワークスページ
+--------------------------------------------------*/
+#works article section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+#works article section p {
+  font-size: 0.9rem;
+}
+#works article section a {
+  display: flex;
+  flex-direction: column;
+  width: -moz-max-content;
+  width: max-content;
+}
+#works article section img {
+  width: -moz-max-content;
+  width: max-content;
 }/*# sourceMappingURL=rsc-style.css.map */
