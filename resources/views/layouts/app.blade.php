@@ -21,9 +21,9 @@
   <header id="header">
     <h1><a href="/">{{config('app.name')}}</a></h1>
     <ul id="global-menu">
-      <li><a href="/about">about</a></li>
-      <li><a href="/works">works</a></li>
-      <li><a href="/contact">contact</a></li>
+      <li><a href="{{route('about')}}">about</a></li>
+      <li><a href="{{route('works')}}">works</a></li>
+      <li><a href="{{route('contact')}}">contact</a></li>
     </ul>
   </header>
 
