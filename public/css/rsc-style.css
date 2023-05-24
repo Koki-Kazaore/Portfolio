@@ -110,4 +110,30 @@ main h2, main > p {
 #works article section img {
   width: -moz-max-content;
   width: max-content;
+}
+
+/* コンタクトページ
+--------------------------------------------------*/
+#contact li {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+#contact li label {
+  margin-bottom: 3px;
+}
+#contact input, #contact textarea {
+  background-color: rgba(200, 200, 200, 0.3);
+  padding: 5px;
+  resize: vertical;
+}
+#contact input:focus, #contact textarea:focus {
+  outline: solid 2px rgb(200, 200, 200);
+}
+#contact button {
+  display: block;
+  margin-left: auto;
+  background-color: #777;
+  color: #fff;
+  padding: 8px 15px;
 }/*# sourceMappingURL=rsc-style.css.map */

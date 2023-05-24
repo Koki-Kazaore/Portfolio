@@ -23,7 +23,7 @@
     <ul id="global-menu">
       <li><a href="/about">about</a></li>
       <li><a href="/works">works</a></li>
-      <li><a href="#">contact</a></li>
+      <li><a href="/contact">contact</a></li>
     </ul>
   </header>
 

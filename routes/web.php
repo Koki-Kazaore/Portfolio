@@ -29,3 +29,7 @@ Route::get('/about', function () {
 Route::get('/works', function () {
     return view('works');
 });
+
+Route::get('/contact', function() {
+    return view('contact');
+});
