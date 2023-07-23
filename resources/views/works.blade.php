@@ -8,7 +8,7 @@
 
   <main id="works">
     <h2>Works Page</h2>
-    <p>このページでは、私がこれまでに作成してきたものを掲載しています。</p>
+    <p>I wii introduce my works I have created. Coming soon in detail!</p>
 
     <article>
       <section>

@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\DebugController;
 
 /*
 |--------------------------------------------------------------------------
@@ -12,6 +13,10 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+
+// デバッグ用
+Route::get('/debug', [DebugController::class, 'input']);
+Route::post('/output', [DebugController::class, 'output']);
 
 // 初期設定ルーティング
 // Route::get('/', function () {
@@ -33,3 +38,7 @@ Route::get('/works', function () {
 Route::get('/contact', function() {
     return view('contact');
 })->name('contact');
+
+Route::get('/articles', function() {
+    return view('articles');
+})->name('articles');
