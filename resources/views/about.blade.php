@@ -8,7 +8,7 @@
 
   <main id="about">
     <h2>About Page</h2>
-    <p>当サイトでは，私がLaravelを勉強していく中で簡単なポートフォリオを作成したいと思い作成しました．</p>
+    <p>I wii introduce myself. Coming soon in detail!</p>
 
     <article id="profile">
       <img src="{{ asset("storage/footBallPlayer.svg") }}" alt="footBallPlayer">
